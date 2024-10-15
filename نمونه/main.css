@@ -1,0 +1,23 @@
+body {
+  font-family: Vazirmatn, sans-serif !important;
+}
+.danger {
+  background-color: red;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.success {
+  background-color: green;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}

@@ -1,0 +1,14 @@
+button {
+  padding: 1rem;
+  outline: none;
+  border: none;
+  margin: 5rem 3rem;
+  cursor: pointer;
+  background-color: #0d77f1;
+  font-size: 1.5rem;
+  color: #fff;
+}
+h1 {
+  font-size: 1.5rem;
+  margin-left: 3rem;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>random</title>
+  </head>
+  <body dir="rtl">
+    <div class="container">
+      <div class="row border m-5 p-3">
+        <div class="col">
+          <form>
+            <div class="mb-3">
+              <input
+                type="number"
+                class="form-control"
+                placeholder="عدد را حدس بزنید"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <button type="button" class="btn btn-primary">حدس</button>
+          </form>
+          <div class="mt-5 border-top pt-4">
+            <h3>فرصت باقی مانده شما : <span id="counter"></span></h3>
+          </div>
+          <div>
+            <h6 id="txt"></h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
